@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/appback">
+
+    <EditText
+        android:id="@+id/upname"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="Enter name here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/upemail"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Enter email here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/upuid"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Enter uid here"
+        />
+    
+    <EditText
+        android:id="@+id/updob"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:hint="Enter DOB here"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/upphone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter phone number here"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/uppast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter past history here"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/upblood"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="Enter bloodgroup here"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/upheight"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="Enter height here"
+        android:inputType="textPersonName" />
+    <EditText
+        android:id="@+id/upweight"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:gravity="center|left"
+        android:hint="Enter weight here"
+        android:inputType="textPersonName"
+    />
+    <EditText
+    android:id="@+id/uprecord"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:ems="10"
+    android:gravity="center|left"
+    android:hint="Enter records here"
+    android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/upsubmit"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="UPdate"
+        app:backgroundTint="#756447" />
+</LinearLayout>
